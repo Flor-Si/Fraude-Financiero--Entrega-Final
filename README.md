@@ -1,12 +1,16 @@
 # Fraude-Financiero
 
 🏦 Trabajo Final: Ingenia-2025
+
 Detección de fraudes en transacciones bancarias
+
 👥 Integrantes Grupo 4
 Carpio, Vanessa
 Huber, Anne Kathrin
 Siarri, María Florencia
+
 Introducción
+
 Este proyecto es parte del Trabajo Final del curso de Ciencia de Datos dictado por Fundación YPF en 2025.
 El pago en línea es el método de transacción más popular en el mundo, pero su aumento trae consigo un incremento de fraude.
 El objetivo de este análisis es identificar pagos fraudulentos y no fraudulentos a partir de un conjunto de datos históricos provenientes de Kaggle.
@@ -18,7 +22,9 @@ Explorar comportamientos según:
 Montos
 Días y horarios
 Cuentas afectadas y destinos de las transferencias.
+
 🗄️ Descripción del conjunto de datos
+
 Origen : Kaggle
 Tamaño : CSV de más de 493 MB (se aloja en GitLab para facilitar la descarga).
 Variables (11):
@@ -47,6 +53,7 @@ Matriz de correlación
 transformación de datos (normalización, codificación de variables categóricas).
 Modelado y optimización de hiperparámetros
 Evaluación de los modelos
+
 🚀 Metodología
 **Lenguaje, librerías y modelos**:
 
@@ -66,5 +73,6 @@ Cuaderno Jupyter
 GitHub / GitLab
 Excel (exploración rápida)
 🔗 Enlaces útiles
+
 🔍 Conjunto de datos en Kaggle:
 https://www.kaggle.com/datasets/rupakroy/online-paids-fraud-detection-dataset
