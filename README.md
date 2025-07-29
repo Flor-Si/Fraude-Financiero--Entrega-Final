@@ -17,6 +17,7 @@ El pago en línea es el método de transacción más popular en el mundo, pero s
 El objetivo de este análisis es identificar pagos fraudulentos y no fraudulentos a partir de un conjunto de datos históricos provenientes de Kaggle.
 
 🎯 Objetivos
+
 Desarrollar un modelo que detecte transacciones potencialmente fraudulentas.
 Analizar distintos tipos de transacciones ( CASH-IN, CASH-OUT, DEBIT, PAYMENT, TRANSFER).
 Explorar comportamientos según:
