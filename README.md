@@ -29,21 +29,37 @@ Cuentas afectadas y destinos de las transferencias.
 
 Origen : Kaggle
 Tamaño : CSV de más de 493 MB (se aloja en GitLab para facilitar la descarga).
+
 Variables (11):
+
 step– unidad de tiempo (1 hora; 744 pasos = 31 días).
+
 type– tipo de transacción ( CASH-IN, CASH-OUT, DEBIT, PAYMENT, TRANSFER).
+
 amount– monto en moneda local.
+
 nameOrig– cliente que inicia la transacción.
+
 oldbalanceOrg– saldo inicial del origen.
+
 newbalanceOrig– saldo después de la transacción.
+
 nameDest– cliente/destino de la transacción.
+
 oldbalanceDest– saldo inicial del destino (no aplica a comerciantes “M…”).
+
 newbalanceDest– saldo después en destino (no aplica a “M…”).
+
 isFraud– indicador de fraude real.
+
 isFlaggedFraud– marcado si monto > 200 000 en una sola transacción.
+
 🧹 Limpieza de Datos(Pasos que se realizaron en la entrega anterior)
+
 Carga del CSV
+
 Visualización inicial
+
 Identificación de tipos de variables
 Dimensiones: filas y columnas
 Estadística descriptiva
